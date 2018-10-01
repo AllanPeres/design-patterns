@@ -3,4 +3,5 @@ include 'abstract-factory'
 include 'adapter'
 include 'bridge'
 include 'strategy'
+include 'singleton'
 

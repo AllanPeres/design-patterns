@@ -2,27 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2558de96-e0cf-44e9-bb52-4b91d248a97c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bridge/src/main/java/com/allan/studies/bridge/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/allan/studies/strategy/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/allan/studies/strategy/calculations/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/allan/studies/strategy/calculations/OperationAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/allan/studies/strategy/calculations/OperationDiv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/allan/studies/strategy/calculations/OperationMult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/allan/studies/strategy/calculations/OperationSub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/src/test/java/com/allan/studies/strategy/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/src/main/java/com/allan/studies/SingleObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/src/test/java/com/allan/studies/singleton/SingleObjectTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abstract-factory/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/abstract-factory/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/design-patterns-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,6 +27,9 @@
     <ignored path="$PROJECT_DIR$/strategy/.gradle/" />
     <ignored path="$PROJECT_DIR$/strategy/build/" />
     <ignored path="$PROJECT_DIR$/strategy/out/" />
+    <ignored path="$PROJECT_DIR$/singleton/.gradle/" />
+    <ignored path="$PROJECT_DIR$/singleton/build/" />
+    <ignored path="$PROJECT_DIR$/singleton/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,27 +75,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="6" />
-          <entry key="gradle" value="19" />
-          <entry key="java" value="45" />
+          <entry key="gradle" value="20" />
+          <entry key="java" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
-          <entry key="Groovy" value="19" />
-          <entry key="JAVA" value="45" />
+          <entry key="Groovy" value="20" />
+          <entry key="JAVA" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="370" />
-          <entry key="java" value="3490" />
+          <entry key="java" value="3987" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="370" />
-          <entry key="JAVA" value="3490" />
+          <entry key="JAVA" value="3987" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -113,11 +103,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/strategy/src/test/java/com/allan/studies/strategy/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="17" column="85" selection-start-line="17" selection-start-column="85" selection-end-line="17" selection-end-column="85" />
+            <state relative-caret-position="216">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/singleton/build.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/singleton/src/main/java/com/allan/studies/SingleObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="19" column="45" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="45" />
+              <folding>
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/singleton/src/test/java/com/allan/studies/singleton/SingleObjectTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,6 +199,10 @@
               <ExternalProjectPojo>
                 <option name="name" value=":bridge" />
                 <option name="path" value="$PROJECT_DIR$/bridge" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":singleton" />
+                <option name="path" value="$PROJECT_DIR$/singleton" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value=":strategy" />
@@ -869,6 +897,174 @@
             </list>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/singleton">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':singleton'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="cleanEclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':singleton'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleans all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="cleanEclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':singleton'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':singleton'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="cleanEclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse classpath file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="eclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':singleton'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':singleton'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="cleanEclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':singleton'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':singleton'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse JDT settings file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="eclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse project file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="eclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':singleton'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/singleton" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/strategy">
           <value>
             <list>
@@ -1041,7 +1237,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="12304050972000" />
+        <entry key="$PROJECT_DIR$" value="13843143767000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/abstract-factory/build.gradle" value="1876477395" />
         <entry key="$PROJECT_DIR$/adapter/build.gradle" value="1876477395" />
@@ -1049,6 +1245,7 @@
         <entry key="$PROJECT_DIR$/build.gradle" value="2308694499" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="1630945439" />
+        <entry key="$PROJECT_DIR$/singleton/build.gradle" value="3760014470" />
         <entry key="$PROJECT_DIR$/strategy/build.gradle" value="1876477395" />
       </map>
     </option>
@@ -1084,6 +1281,13 @@
                     <value>
                       <ExternalModuleBuildClasspathPojo>
                         <option name="path" value="$PROJECT_DIR$/bridge" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/singleton">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/singleton" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -1299,10 +1503,12 @@
         <option value="$PROJECT_DIR$/adapter/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/strategy/src/test/java/com/allan/studies/strategy/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/singleton/src/main/java/com/allan/studies/SingleObject.java" />
+        <option value="$PROJECT_DIR$/singleton/src/test/java/com/allan/studies/singleton/SingleObjectTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1370" />
     <option name="y" value="27" />
     <option name="width" value="1336" />
@@ -1326,35 +1532,40 @@
             <path>
               <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="design-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="abstract-factory" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="singleton" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="design-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="adapter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="strategy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="strategy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="singleton" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="design-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="strategy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="singleton" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="singleton" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="singleton" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="design-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="strategy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="singleton" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -1362,11 +1573,11 @@
             <path>
               <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="design-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="strategy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="singleton" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1375,8 +1586,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538411152727" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/abstract-factory/src/main/java/com/allan/studies/abstractfactory" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538413637309" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/singleton/src/test/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -1387,6 +1598,7 @@
       <recent name="com.allan.studies.abstractfactory.FactoryMaker" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.allan.studies.singleton" />
       <recent name="com.allan.studies.abstractfactory" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -1407,7 +1619,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.tests">
+  <component name="RunManager" selected="JUnit.SingleObjectTest">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.allan.studies.adapter.App" />
       <module name="adapter_main" />
@@ -1463,14 +1675,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingleObjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="singleton_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allan.studies.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.allan.studies.singleton" />
+      <option name="MAIN_CLASS_NAME" value="com.allan.studies.singleton.SingleObjectTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="Application.App (1)" />
       <item itemvalue="Application.Calculator" />
       <item itemvalue="JUnit.CalculatorTest.tests" />
+      <item itemvalue="JUnit.SingleObjectTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SingleObjectTest" />
         <item itemvalue="JUnit.CalculatorTest.tests" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.App (1)" />
@@ -1506,7 +1734,7 @@
     <frame x="1360" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27045456" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27045456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1515,13 +1743,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952693" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32626426" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32626426" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924242" weight="0.32952693" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924242" visible="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Build" order="9" sideWeight="0.49924242" weight="0.32626426" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007576" side_tool="true" weight="0.32952693" />
@@ -1824,8 +2052,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/strategy/src/test/java/com/allan/studies/strategy/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="85" selection-start-line="17" selection-start-column="85" selection-end-line="17" selection-end-column="85" />
+        <state relative-caret-position="216">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singleton/src/main/java/com/allan/studies/singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singleton/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singleton/src/main/java/com/allan/studies/SingleObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="45" />
+          <folding>
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singleton/src/test/java/com/allan/studies/singleton/SingleObjectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1884,7 +2147,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>abstract-factory_test|abstract-factory</last-edited>
+          <last-edited>singleton_main|singleton</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
