@@ -5,14 +5,10 @@ plugins {
 group 'com.allan.studies'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = JavaVersion.VERSION_1_10
-
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.3.1'
-    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.3.1'
-    testCompile group: 'org.mockito', name: 'mockito-core', version: '5.3.1'
+
 }

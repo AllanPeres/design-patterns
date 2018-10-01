@@ -5,14 +5,21 @@ plugins {
 group 'com.allan.studies'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = JavaVersion.VERSION_1_10
+allprojects {
+    apply plugin: 'java'
+    apply plugin: 'idea'
+    apply plugin: 'eclipse'
 
-repositories {
-    mavenCentral()
-}
+    sourceCompatibility = JavaVersion.VERSION_1_10
 
-dependencies {
-    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api'
-    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-engine'
-    testCompile group: 'org.mockito', name: 'mockito-core'
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        testCompile('org.junit.jupiter:junit-jupiter-params:5.3.1')
+        testImplementation('org.junit.jupiter:junit-jupiter-api:5.3.1')
+        testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.3.1')
+        testCompile('org.mockito:mockito-core:2.22.0')
+    }
 }

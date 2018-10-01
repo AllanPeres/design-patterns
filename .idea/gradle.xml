@@ -10,6 +10,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/abstract-factory" />
             <option value="$PROJECT_DIR$/adapter" />
+            <option value="$PROJECT_DIR$/bridge" />
+            <option value="$PROJECT_DIR$/strategy" />
           </set>
         </option>
       </GradleProjectSettings>
